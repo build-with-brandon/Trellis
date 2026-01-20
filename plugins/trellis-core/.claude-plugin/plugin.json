@@ -1,0 +1,11 @@
+{
+  "name": "trellis-core",
+  "description": "Core Trellis setup - initializes project structure with /trellis command",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["trellis", "setup", "initialization", "project-structure"],
+  "license": "MIT",
+  "agents": ["./agents/trellis-setup.md"]
+}

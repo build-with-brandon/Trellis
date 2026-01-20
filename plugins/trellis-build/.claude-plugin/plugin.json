@@ -1,0 +1,24 @@
+{
+  "name": "trellis-build",
+  "description": "Build runner agent - executes builds, summarizes stack traces, reports logs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["build", "test", "run", "stack-trace", "logs"],
+  "license": "MIT",
+  "agents": ["./agents/build-runner.md"],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/capture-build.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

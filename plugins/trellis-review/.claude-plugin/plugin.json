@@ -1,0 +1,10 @@
+{
+  "name": "trellis-review",
+  "description": "Review phase tools for the Trellis framework - code review and Kaizen retrospectives",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trellis"
+  },
+  "keywords": ["review", "kaizen", "retrospective", "trellis", "methodology"],
+  "license": "MIT"
+}

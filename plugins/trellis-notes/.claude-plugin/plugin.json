@@ -1,0 +1,11 @@
+{
+  "name": "trellis-notes",
+  "description": "Notes enrichment - /notes reads and enhances your working notes with context",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["notes", "context", "enrichment", "planning"],
+  "license": "MIT",
+  "agents": ["./agents/notes-agent.md"]
+}
