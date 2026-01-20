@@ -1,6 +1,12 @@
 # Trellis
 
-A framework for building software with AI assistance.
+<p align="center">
+  <img src="logo.png" alt="Trellis Logo" width="180" height="180">
+</p>
+
+<p align="center">
+  <strong>A framework for building software with AI assistance</strong>
+</p>
 
 ---
 
