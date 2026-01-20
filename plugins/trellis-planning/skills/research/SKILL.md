@@ -1,4 +1,5 @@
 ---
+name: research
 description: Research before building - explore technologies, patterns, and possibilities
 disable-model-invocation: true
 ---

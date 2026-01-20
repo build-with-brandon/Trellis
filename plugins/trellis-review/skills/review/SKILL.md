@@ -1,4 +1,5 @@
 ---
+name: review
 description: Review code or features using Trellis principles - verify, don't trust
 disable-model-invocation: true
 ---

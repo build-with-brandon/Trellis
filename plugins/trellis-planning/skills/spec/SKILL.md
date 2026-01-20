@@ -1,4 +1,5 @@
 ---
+name: spec
 description: Generate a TECH_SPECS.md document for a feature or project
 disable-model-invocation: true
 ---

@@ -1,4 +1,5 @@
 ---
+name: arch
 description: Generate architecture documentation with Mermaid diagrams
 ---
 
