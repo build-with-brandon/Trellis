@@ -47,6 +47,11 @@ All notable changes to the Trellis project will be documented in this file.
 - Expanded marketplace from 3 to 9 plugins
 - Reorganized plugins by category (core, context, development, quality, planning, documentation)
 
+### Fixed
+
+- Added `name:` field to all SKILL.md frontmatter (required for skill registration)
+- Fixed plugin source paths in marketplace.json to use `./plugins/plugin-name` format
+
 ---
 
 ## [1.0.0] - 2026-01-20
