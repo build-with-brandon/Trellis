@@ -1,4 +1,5 @@
 ---
+name: done
 description: Complete current feature/story and transfer session changelog to main changelog
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: vibe-check
 description: Check for redundant code, race conditions, and vibe coding pitfalls
 ---
 

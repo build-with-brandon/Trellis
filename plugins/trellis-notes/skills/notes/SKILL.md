@@ -1,4 +1,5 @@
 ---
+name: notes
 description: Enrich your notes with context, relevant files, and additional details
 ---
 

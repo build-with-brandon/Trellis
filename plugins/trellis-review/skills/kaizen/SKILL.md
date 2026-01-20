@@ -1,4 +1,5 @@
 ---
+name: kaizen
 description: Conduct a Kaizen retrospective - continuous improvement after each session
 disable-model-invocation: true
 ---

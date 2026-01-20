@@ -1,4 +1,5 @@
 ---
+name: trellis
 description: Initialize or repair Trellis project structure
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: plan
 description: Plan a feature using the Trellis two-document approach
 disable-model-invocation: true
 ---

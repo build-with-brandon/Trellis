@@ -1,4 +1,5 @@
 ---
+name: context-check
 description: Evaluate and manage working context - keep what helps, clear what hurts
 disable-model-invocation: true
 ---
