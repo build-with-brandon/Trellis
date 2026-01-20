@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "trellis-core",
-      "source": "./trellis-core",
+      "source": "trellis-core",
       "description": "Core setup - /trellis initializes project structure (TECH_SPECS.md, README.md, CHANGELOG.md, .trellis/, .claude/)",
       "version": "1.0.0",
       "category": "core",
@@ -23,7 +23,7 @@
     },
     {
       "name": "trellis-changelog",
-      "source": "./trellis-changelog",
+      "source": "trellis-changelog",
       "description": "Changelog management - automatic session tracking via hooks, /done transfers to main changelog, compaction at 400 lines",
       "version": "1.0.0",
       "category": "context",
@@ -34,7 +34,7 @@
     },
     {
       "name": "trellis-build",
-      "source": "./trellis-build",
+      "source": "trellis-build",
       "description": "Build runner - executes builds/tests, summarizes stack traces, reports logs via hooks",
       "version": "1.0.0",
       "category": "development",
@@ -45,7 +45,7 @@
     },
     {
       "name": "trellis-vibe-check",
-      "source": "./trellis-vibe-check",
+      "source": "trellis-vibe-check",
       "description": "Code quality - /vibe-check scans for redundant code, race conditions, and vibe coding pitfalls",
       "version": "1.0.0",
       "category": "quality",
@@ -56,7 +56,7 @@
     },
     {
       "name": "trellis-notes",
-      "source": "./trellis-notes",
+      "source": "trellis-notes",
       "description": "Notes enrichment - /notes reads .trellis/NOTES.md and adds context, relevant files, and details",
       "version": "1.0.0",
       "category": "planning",
@@ -67,7 +67,7 @@
     },
     {
       "name": "trellis-arch",
-      "source": "./trellis-arch",
+      "source": "trellis-arch",
       "description": "Architecture docs - /arch generates ARCHITECTURE.md with Mermaid diagrams",
       "version": "1.0.0",
       "category": "documentation",
@@ -78,7 +78,7 @@
     },
     {
       "name": "trellis-planning",
-      "source": "./trellis-planning",
+      "source": "trellis-planning",
       "description": "Planning phase tools - /plan for feature planning, /research for technology exploration, /spec for generating TECH_SPECS.md",
       "version": "1.0.0",
       "category": "planning",
@@ -89,7 +89,7 @@
     },
     {
       "name": "trellis-review",
-      "source": "./trellis-review",
+      "source": "trellis-review",
       "description": "Review phase tools - /review for code review with Trellis principles, /kaizen for continuous improvement retrospectives",
       "version": "1.0.0",
       "category": "review",
@@ -100,7 +100,7 @@
     },
     {
       "name": "trellis-context",
-      "source": "./trellis-context",
+      "source": "trellis-context",
       "description": "Context management tools - /context-check to evaluate and manage working context lifecycle",
       "version": "1.0.0",
       "category": "productivity",
