@@ -1,0 +1,10 @@
+{
+  "name": "trellis-planning",
+  "description": "Planning phase tools for the Trellis framework - plan, research, and spec generation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trellis"
+  },
+  "keywords": ["planning", "research", "specification", "trellis", "methodology"],
+  "license": "MIT"
+}

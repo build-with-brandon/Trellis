@@ -1,0 +1,11 @@
+{
+  "name": "trellis-arch",
+  "description": "Architecture documentation - /arch generates ARCHITECTURE.md with Mermaid diagrams",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["architecture", "documentation", "mermaid", "diagrams"],
+  "license": "MIT",
+  "agents": ["./agents/architecture-agent.md"]
+}

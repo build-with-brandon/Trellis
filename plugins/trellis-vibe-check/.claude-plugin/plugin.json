@@ -1,0 +1,11 @@
+{
+  "name": "trellis-vibe-check",
+  "description": "Redundancy checker - /vibe-check scans for duplicate code, race conditions, and vibe coding pitfalls",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["redundancy", "race-condition", "code-quality", "vibe-check", "lint"],
+  "license": "MIT",
+  "agents": ["./agents/redundancy-checker.md"]
+}

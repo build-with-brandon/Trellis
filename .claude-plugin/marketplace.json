@@ -1,0 +1,113 @@
+{
+  "name": "trellis-marketplace",
+  "owner": {
+    "name": "Brandon",
+    "email": "btate92@gmail.com"
+  },
+  "metadata": {
+    "description": "Official plugin marketplace for the Trellis framework - tools for building software with AI assistance",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "trellis-core",
+      "source": "./trellis-core",
+      "description": "Core setup - /trellis initializes project structure (TECH_SPECS.md, README.md, CHANGELOG.md, .trellis/, .claude/)",
+      "version": "1.0.0",
+      "category": "core",
+      "tags": ["setup", "initialization", "project-structure"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-changelog",
+      "source": "./trellis-changelog",
+      "description": "Changelog management - automatic session tracking via hooks, /done transfers to main changelog, compaction at 400 lines",
+      "version": "1.0.0",
+      "category": "context",
+      "tags": ["changelog", "session", "tracking", "context"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-build",
+      "source": "./trellis-build",
+      "description": "Build runner - executes builds/tests, summarizes stack traces, reports logs via hooks",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["build", "test", "run", "stack-trace", "logs"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-vibe-check",
+      "source": "./trellis-vibe-check",
+      "description": "Code quality - /vibe-check scans for redundant code, race conditions, and vibe coding pitfalls",
+      "version": "1.0.0",
+      "category": "quality",
+      "tags": ["redundancy", "race-condition", "code-quality", "lint"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-notes",
+      "source": "./trellis-notes",
+      "description": "Notes enrichment - /notes reads .trellis/NOTES.md and adds context, relevant files, and details",
+      "version": "1.0.0",
+      "category": "planning",
+      "tags": ["notes", "context", "enrichment", "planning"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-arch",
+      "source": "./trellis-arch",
+      "description": "Architecture docs - /arch generates ARCHITECTURE.md with Mermaid diagrams",
+      "version": "1.0.0",
+      "category": "documentation",
+      "tags": ["architecture", "documentation", "mermaid", "diagrams"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-planning",
+      "source": "./trellis-planning",
+      "description": "Planning phase tools - /plan for feature planning, /research for technology exploration, /spec for generating TECH_SPECS.md",
+      "version": "1.0.0",
+      "category": "planning",
+      "tags": ["planning", "research", "specification", "methodology"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-review",
+      "source": "./trellis-review",
+      "description": "Review phase tools - /review for code review with Trellis principles, /kaizen for continuous improvement retrospectives",
+      "version": "1.0.0",
+      "category": "review",
+      "tags": ["review", "kaizen", "retrospective", "quality"],
+      "author": {
+        "name": "Brandon"
+      }
+    },
+    {
+      "name": "trellis-context",
+      "source": "./trellis-context",
+      "description": "Context management tools - /context-check to evaluate and manage working context lifecycle",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["context", "management", "lifecycle", "productivity"],
+      "author": {
+        "name": "Brandon"
+      }
+    }
+  ]
+}

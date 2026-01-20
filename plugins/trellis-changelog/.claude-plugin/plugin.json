@@ -1,0 +1,24 @@
+{
+  "name": "trellis-changelog",
+  "description": "Changelog management - session tracking, /done command, and changelog compaction",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon"
+  },
+  "keywords": ["changelog", "session", "tracking", "context"],
+  "license": "MIT",
+  "agents": ["./agents/changelog-agent.md"],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/log-completion.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

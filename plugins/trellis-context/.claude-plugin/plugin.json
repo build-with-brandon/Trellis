@@ -1,0 +1,10 @@
+{
+  "name": "trellis-context",
+  "description": "Context management tools for the Trellis framework - evaluate and manage working context",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trellis"
+  },
+  "keywords": ["context", "management", "lifecycle", "trellis", "methodology"],
+  "license": "MIT"
+}
